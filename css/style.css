@@ -1,3 +1,170 @@
+body,
+html {
+    background: linear-gradient(to bottom, #272727, #1a1a1a);
+    height: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.left-panel {
+    background-image: url("../asset/images/shape.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 100%;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.left-panel .button{
+    position: absolute;
+    top: 20.5rem;
+    left: 5rem;
+}
+
+.left-panel, p, label {
+    color: white;
+}
+label {
+    color: white;
+    font-size: 18px;
+}
+
+.left-panel h2 {
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 120% */
+}
+
+.left-panel .bg-shape-b {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.right-panel .register-image {
+    padding:10rem;
+    width: 90%;
+    height: auto;
+}
+
+.right-panel {
+    background-color: #444343;
+}
+
+.right-panel .login-image {
+    padding: 12rem;
+}
+
+.button i {
+    font-size: 4rem;
+}
+.logo {
+    width: 5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.logo-register {
+    width: 5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.submit-button {
+    border-radius: 8px;
+    background: #E54649;
+}
+
+.lupa-password {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.term {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+.round-checkbox {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Register Page */
+
+.left-panel-register {
+    background-image: url("../asset/images/shape.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 100%;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.left-panel-register .button{
+    position: relative;
+    top: 4.5rem;
+    right: 5rem;
+}
+
+.left-panel-register, p, label {
+    color: white;
+}
+label {
+    color: white;
+    font-size: 18px;
+}
+
+.left-panel-register h2 {
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* 120% */
+}
+
+.left-panel-register .bg-shape-b {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.right-panel-register .register-image {
+    padding:10rem;
+    width: 90%;
+    height: auto;
+}
+
+.right-panel-register {
+    background-color: #444343;
+}
+
+.right-panel-register .login-image {
+    padding: 12rem;
+}
+
+/* Lupa Password */
+.button-lupa i {
+    font-size: 4rem;
+}
+
+.left-panel .button-lupa {
+    position: absolute;
+    left: 4rem;
+    top: 24rem;
+}
 th {
     background-color: #818181 !important; /* Ganti dengan warna yang Anda inginkan */
     color: white; /* Warna teks di dalam header */

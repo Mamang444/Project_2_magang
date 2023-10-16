@@ -1,0 +1,18 @@
+body, html {
+    background: linear-gradient(to bottom, #272727, #1a1a1a);
+    height: 100%;
+}
+
+/* Navbar */
+
+.logo {
+    width: 60px;
+    height: auto;
+}
+
+/* content */
+main .content {
+    background-image: url(../asset/images/shape.png);
+}
+
+/* left menu */
